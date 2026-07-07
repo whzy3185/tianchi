@@ -8,15 +8,28 @@
 
 ## 2. 数据文件名
 
-待确认。需进入数据下载页或数据仓库确认实际文件名。
+已本地归档：
+
+- `data/raw/PersonUKE-dataset.json`
 
 ## 3. 文件大小
 
-待确认。
+已确认：
+
+- `PersonUKE-dataset.json`：1,044,836 bytes，679 条 JSON 样本
 
 ## 4. 训练集说明
 
-PersonUKE 训练数据。官方限制：仅允许使用 edit/train prompt 和 `target_new` 字段进行训练。
+PersonUKE 数据已确认字段：
+
+- `prompt`
+- `rephrase`
+- `target_old`
+- `target_new`
+- `portability`
+- `locality`
+
+官方限制：仅允许使用 edit/train prompt 和 `target_new` 字段进行训练；其他字段仅用于评估或结构校验。
 
 ## 5. 测试集说明
 
